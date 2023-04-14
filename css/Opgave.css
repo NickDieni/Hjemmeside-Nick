@@ -1,0 +1,76 @@
+﻿body
+{
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.div1 {
+    grid-area: 2 / 2 / 3 / 3;
+    background-color: aliceblue;
+    text-align:center;
+    height: 150px;
+
+}
+.myButton {
+    box-shadow: 0px 0px 0px 2px #9fb4f2;
+    background: linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+    background-color: #7892c2;
+    border-radius: 10px;
+    border: 1px solid #4e6096;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    padding: 8px 34px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #283966;
+}
+
+    .myButton:hover {
+        background: linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+        background-color: #476e9e;
+    }
+
+    .myButton:active {
+        position: relative;
+        top: 1px;
+    }
+
+
+.div2 {
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+.div3 {
+    grid-area: 2 / 4 / 3 / 5;
+}
+
+.div4 {
+    grid-area: 3 / 2 / 4 / 3;
+}
+
+.div5 {
+    grid-area: 3 / 3 / 4 / 4;
+}
+
+.div6 {
+    grid-area: 3 / 4 / 4 / 5;
+}
+
+.div7 {
+    grid-area: 4 / 2 / 5 / 3;
+}
+
+.div8 {
+    grid-area: 4 / 3 / 5 / 4;
+}
+
+.div9 {
+    grid-area: 4 / 4 / 5 / 5;
+}
